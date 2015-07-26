@@ -10,7 +10,7 @@
     public class MySQLDatabase
     {
         private const string CONNECTION_STRING = "Server=localhost;Port=3306;Uid=root;Pwd=123456;";
-        private const string MYSQL_DATABASE_SCHEMA_FILE = "../../../mysql_schema.sql";
+        private const string MYSQL_DATABASE_SCHEMA_FILE = "../../../Resources/mysql_schema.sql";
         
         private MySqlConnection mysqlConnection;
         private ChainOfSupermarketsContext sqlServerContext;
@@ -52,8 +52,19 @@
                 {
                     this.ImportVendors();
                     this.ImportMeasures();
+                    this.ImportLocations();
                     this.ImportProducts();
+                    this.ImportSales();
+                    this.ImportExpenses();
                 }
+            }
+        }
+
+        private void ExecuteMySQLQuery(string query)
+        {
+            using (var command = new MySqlCommand(query, this.mysqlConnection))
+            {
+                command.ExecuteNonQuery();
             }
         }
 
@@ -65,10 +76,7 @@
                 INSERT IGNORE INTO `vendors` (`name`) VALUES {0};",
                 string.Join(",", vendorNames));
 
-            using (var command = new MySqlCommand(query, this.mysqlConnection))
-            {
-                command.ExecuteNonQuery();
-            }
+            this.ExecuteMySQLQuery(query);
         }
 
         private void ImportMeasures()
@@ -79,10 +87,18 @@
                 INSERT IGNORE INTO `measures` (`name`) VALUES {0};",
                 string.Join(",", measureNames));
 
-            using (var command = new MySqlCommand(query, this.mysqlConnection))
-            {
-                command.ExecuteNonQuery();
-            }
+            this.ExecuteMySQLQuery(query);
+        }
+
+        private void ImportLocations()
+        {
+            var locationNames = this.sqlServerContext.Locations.Select(l => "('" + l.Name + "')");
+            var query = string.Format(
+                @"USE `chain_of_supermarkets`;
+                INSERT IGNORE INTO `locations` (`name`) VALUES {0};",
+                string.Join(",", locationNames));
+
+            this.ExecuteMySQLQuery(query);
         }
 
         private void ImportProducts()
@@ -109,10 +125,60 @@
                     vendorId,
                     measureId);
 
-                using (var command = new MySqlCommand(query, this.mysqlConnection))
-                {
-                    command.ExecuteNonQuery();
-                }
+                this.ExecuteMySQLQuery(query);
+            }
+        }
+
+        private void ImportSales()
+        {
+            var sales = this.sqlServerContext.Sales.Select(s => new
+            {
+                s.Quantity,
+                s.DateOfSale,
+                productName = s.Product.ProductName,
+                locationName = s.Location.Name
+            });
+
+            foreach (var sale in sales)
+            {
+                var productId = this.GetProductId(sale.productName);
+                var locationId = this.GetLocationId(sale.locationName);
+
+                var query = string.Format(
+                    @"USE `chain_of_supermarkets`;
+                    INSERT INTO `sales` (`quantity`, `date_of_sale`, `product_id`, `location_id`)
+                    VALUES({0}, '{1}', {2}, {3});",
+                    sale.Quantity,
+                    sale.DateOfSale.ToString("yyyy-MM-dd"),
+                    productId,
+                    locationId);
+
+                this.ExecuteMySQLQuery(query);
+            }
+        }
+
+        private void ImportExpenses()
+        {
+            var expenses = this.sqlServerContext.Expenses.Select(e => new
+            {
+                e.Value,
+                e.Month,
+                vendorName = e.Vendor.VendorName
+            });
+
+            foreach (var expense in expenses)
+            {
+                var vendorId = this.GetVendorId(expense.vendorName);
+
+                var query = string.Format(
+                    @"USE `chain_of_supermarkets`;
+                    INSERT INTO `expenses` (`expense_value`, `expense_month`, `vendor_id`)
+                    VALUES({0}, '{1}', {2});",
+                    expense.Value,
+                    expense.Month.ToString("yyyy-MM-dd"),
+                    vendorId);
+
+                this.ExecuteMySQLQuery(query);
             }
         }
 
@@ -135,6 +201,32 @@
                 @"USE `chain_of_supermarkets`;
                 SELECT `id` FROM `measures` WHERE `name`='{0}'",
                 measureName);
+
+            using (var command = new MySqlCommand(query, this.mysqlConnection))
+            {
+                return (int)command.ExecuteScalar();
+            }
+        }
+
+        private int GetLocationId(string locationName)
+        {
+            var query = string.Format(
+                @"USE `chain_of_supermarkets`;
+                SELECT `id` FROM `locations` WHERE `name`='{0}'",
+                locationName);
+
+            using (var command = new MySqlCommand(query, this.mysqlConnection))
+            {
+                return (int)command.ExecuteScalar();
+            }
+        }
+
+        private int GetProductId(string productName)
+        {
+            var query = string.Format(
+                @"USE `chain_of_supermarkets`;
+                SELECT `id` FROM `products` WHERE `name`='{0}'",
+                productName);
 
             using (var command = new MySqlCommand(query, this.mysqlConnection))
             {
