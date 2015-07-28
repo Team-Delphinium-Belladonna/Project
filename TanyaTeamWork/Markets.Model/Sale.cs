@@ -1,5 +1,6 @@
 ﻿namespace Markets.Model
 {
+    //OKI
     using System;
     using System.ComponentModel.DataAnnotations;
 
@@ -7,17 +8,22 @@
     {
         [Key]
         public int Id { get; set; }
-        public DateTime Date { get; set; }
+        public decimal Quantity { get; set; }
+
         public int ProductId { get; set; }
         public virtual Product Product { get; set; }
+
+        public DateTime DateOfSale { get; set; }
+
+        //Tanya
         public int VendorId { get; set; }
         public virtual Vendor Vendor { get; set; }
-        public double Quantity { get; set; }
-
+       
+        //Tanya
         public bool Equals(Sale other)
         {
             if ((this.ProductId == other.ProductId) &&
-                (this.Date.Date == other.Date.Date) &&
+                (this.DateOfSale.Date == other.DateOfSale.Date) &&
                 (this.VendorId == other.VendorId))
             {
                 return true;

@@ -1,5 +1,6 @@
 ﻿namespace Markets.Model
 {
+    //OKI-Tanya-dobaveno
     using System.Collections.Generic;
 
     public class ReportContainer

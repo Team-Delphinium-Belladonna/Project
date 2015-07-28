@@ -118,13 +118,13 @@
             var db = new ChainOfSupermarketsContext();
 
             var sales = db.Sales
-                .Where(s => s.Date >= startDate && s.Date <= endDate)
-                .Select(s => new { Suppermarket = s.Vendor.VendorName, s.Date, TotalPrice = (s.Product.Price * s.Quantity) })
+                .Where(s => s.DateOfSale >= startDate && s.DateOfSale <= endDate)
+                .Select(s => new { Suppermarket = s.Vendor.VendorName, s.DateOfSale, TotalPrice = (s.Product.Price * s.Quantity) })
                 .GroupBy(s => s.Suppermarket)
                 .Select(g => new ReportContainer
                 {
                     SupermarkeName = g.Key,
-                    SaleReport = g.GroupBy(s => s.Date)
+                    SaleReport = g.GroupBy(s => s.DateOfSale)
                         .Select(gd => new ReportData { Date = gd.Key, TotalSum = gd.Sum(s => s.TotalPrice) })
                         .ToList()
                 })
@@ -181,8 +181,8 @@
             var db = new ChainOfSupermarketsContext();
 
             var sales = db.Sales
-                .Where(s => s.Date >= startDate && s.Date <= endDate)
-                .GroupBy(s => s.Date)
+                .Where(s => s.DateOfSale >= startDate && s.DateOfSale <= endDate)
+                .GroupBy(s => s.DateOfSale)
                 .Select(g => new ReportContainer
                 {
                     SaleReport = g.Select(s => new ReportData
@@ -193,7 +193,7 @@
                         Price = s.Product.Price,
                         VendorName = s.Vendor.VendorName,
                         TotalSum = s.Product.Price * s.Quantity,
-                        Date = s.Date,
+                        Date = s.DateOfSale,
                         Id = s.ProductId,
                     })
                     .ToList()

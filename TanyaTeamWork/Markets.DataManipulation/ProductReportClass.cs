@@ -1,7 +1,7 @@
-﻿using System.Runtime.Serialization;
-
-namespace Markets.DataManipulation
+﻿namespace Markets.DataManipulation
 {
+    using System.Runtime.Serialization;
+
     [DataContract]
     public class ProductReportClass
     {
@@ -12,8 +12,8 @@ namespace Markets.DataManipulation
         [DataMember(Name = "vendor-name")]
         public string vendorName;
         [DataMember(Name = "total-quantity-sold")]
-        public double totalQuantiySold;
+        public decimal totalQuantiySold;
         [DataMember(Name = "total-incomes")]
-        public double totalIncomes;
+        public decimal totalIncomes;
     }
 }

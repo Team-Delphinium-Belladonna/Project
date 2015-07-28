@@ -1,13 +1,12 @@
 ﻿namespace Markets.DataManipulation
-{ 
+{
     using System.Collections.ObjectModel;
     using System.Linq;
     using System.Text;
-
-    using System;
     using System.IO;
     using System.Runtime.Serialization.Json;
     using System.Collections.Generic;
+
     using Markets.Model;
 
     public static class Json
@@ -86,7 +85,7 @@
             foreach (var reportContainer in reports)
             {
                 var p = reportContainer.SaleReport[0];
-                var totalQuantiySold = reportContainer.SaleReport.Sum(pr => pr.Quantity);
+                decimal totalQuantiySold = reportContainer.SaleReport.Sum(pr => pr.Quantity);
 
                 var product = new ProductReportClass();
                 product.id = p.Id;

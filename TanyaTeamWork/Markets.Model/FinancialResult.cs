@@ -1,5 +1,6 @@
 ﻿namespace Markets.Model
 {
+    //OKI
     public class FinancialResult
     {
         public string Vendor { get; set; }

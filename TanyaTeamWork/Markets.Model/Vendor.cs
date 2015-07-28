@@ -1,5 +1,6 @@
 ﻿namespace Markets.Model
 {
+    //OKI
     using System.Collections.Generic;
     using System.ComponentModel.DataAnnotations;
 

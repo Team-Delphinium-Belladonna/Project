@@ -1,5 +1,6 @@
 ﻿namespace Markets.Data
 {
+    //OKI
     using System.Data.Entity;
 
     using Markets.Data.Migrations;

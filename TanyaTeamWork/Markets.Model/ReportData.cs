@@ -1,5 +1,6 @@
 ﻿namespace Markets.Model
 {
+    //OKI-Tanya-dopulnenie
     using System;
     using System.Collections.Generic;
 
@@ -14,9 +15,9 @@
         public string ProductName { get; set; }
         public string Measure { get; set; }
         public string VendorName { get; set; }
-        public double Quantity { get; set; }
-        public double Price { get; set; }
-        public double TotalSum { get; set; }
+        public decimal Quantity { get; set; }
+        public decimal Price { get; set; }
+        public decimal TotalSum { get; set; }
         public DateTime? Date { get; set; }
     }
 }

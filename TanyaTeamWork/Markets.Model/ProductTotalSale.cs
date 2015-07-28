@@ -1,5 +1,6 @@
 ﻿namespace Markets.Model
 {
+    //OKI
     public class ProductTotalSale
     {
         public int ProductId { get; set; }
