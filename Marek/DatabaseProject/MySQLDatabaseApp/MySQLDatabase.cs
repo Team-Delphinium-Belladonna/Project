@@ -168,17 +168,33 @@
 
             foreach (var expense in expenses)
             {
-                var vendorId = this.GetVendorId(expense.vendorName);
 
                 var query = string.Format(
                     @"USE `chain_of_supermarkets`;
-                    INSERT INTO `expenses` (`expense_value`, `expense_month`, `vendor_id`)
-                    VALUES({0}, '{1}', {2});",
+                    INSERT INTO `expenses` (`expense_value`, `expense_month`)
+                    VALUES({0}, '{1}');",
                     expense.Value,
-                    expense.Month.ToString("yyyy-MM-dd"),
-                    vendorId);
+                    expense.Month.ToString("yyyy-MM-dd"));
 
                 this.ExecuteMySQLQuery(query);
+
+                var expenseIdQuery = string.Format(
+                    @"USE `chain_of_supermarkets`;
+                    SELECT `id` FROM `expenses` WHERE `expense_value` = {0}",
+                    expense.Value);
+                using (var command = new MySqlCommand(expenseIdQuery, this.mysqlConnection))
+                {
+                    var vendorId = this.GetVendorId(expense.vendorName);
+                    int expenseId = Convert.ToInt32(command.ExecuteScalar());
+
+                    var insertVendorsExpensesQuery = string.Format(
+                        @"USE `chain_of_supermarkets`;
+                        INSERT INTO `vendors_expenses` (`vendor_id`, `expense_id`)
+                        VALUES({0}, {1});",
+                        vendorId,
+                        expenseId);
+                    this.ExecuteMySQLQuery(insertVendorsExpensesQuery);
+                }
             }
         }
 

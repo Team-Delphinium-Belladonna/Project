@@ -46,7 +46,12 @@ CREATE TABLE IF NOT EXISTS `expenses` (
   `id` int NOT NULL AUTO_INCREMENT,
   `expense_value` decimal(18,2) NOT NULL,
   `expense_month` datetime NOT NULL,
-  `vendor_id` int NOT NULL,
-  PRIMARY KEY (`id`),
-  FOREIGN KEY (`vendor_id`) REFERENCES `vendors` (`id`)
+  PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+CREATE TABLE IF NOT EXISTS `vendors_expenses` (
+  `vendor_id` INT NOT NULL,
+  `expense_id` INT NOT NULL,
+  FOREIGN KEY (`vendor_id`) REFERENCES `vendors` (`id`),
+  FOREIGN KEY (`expense_id`) REFERENCES `expenses` (`id`)
+);
