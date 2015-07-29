@@ -9,19 +9,19 @@ namespace DataManagement.Exporters
     using iTextSharp.text;
     using iTextSharp.text.pdf;
 
-    public static class PdfExporter
+    public class PdfExporter
     {
-        private static readonly BaseFont BaseFont =
+        private  readonly BaseFont BaseFont =
             BaseFont.CreateFont(DataManagement.Default.VerdanaFontLocation, BaseFont.CP1252, false);
 
-        public static void ExportSales(string startDate, string endDate)
+        public  void ExportSales(string startDate, string endDate)
         {
             var start = DateTime.Parse(startDate);
             var end = DateTime.Parse(endDate);
             ExportSales(start, end);
         }
 
-        public static void ExportSales(DateTime startDate, DateTime endDate)
+        public void ExportSales(DateTime startDate, DateTime endDate)
         {
             using (var pdfDocument = new Document())
             {
@@ -96,7 +96,7 @@ namespace DataManagement.Exporters
             }
         }
 
-        private static void AddHeaderToTable(PdfPTable table, DateTime date)
+        private  void AddHeaderToTable(PdfPTable table, DateTime date)
         {
             table.AddCell(new PdfPCell(
                 new Phrase("Date: " + date.ToString("d-MMM-yyyy"), new Font(BaseFont, 12, Font.BOLD)))
@@ -115,7 +115,7 @@ namespace DataManagement.Exporters
             AddHeaderCellToTable(table, "Sum");
         }
 
-        private static void AddSaleFooterToTable(PdfPTable table, DateTime date, decimal totalSum)
+        private  void AddSaleFooterToTable(PdfPTable table, DateTime date, decimal totalSum)
         {
             var boldFont = new Font(BaseFont, 12, Font.BOLD);
             table.AddCell(new PdfPCell(new Phrase("Total sum for " + date.ToString("d-MMM-yyyy") + ":", boldFont))
@@ -137,7 +137,7 @@ namespace DataManagement.Exporters
             });
         }
 
-        private static void AddGrandTotalToTable(PdfPTable table, decimal grandTotal)
+        private  void AddGrandTotalToTable(PdfPTable table, decimal grandTotal)
         {
             var extraBoldFont = new Font(BaseFont, 14, Font.BOLD);
             table.AddCell(new PdfPCell(new Phrase("Grand Total:", extraBoldFont))
@@ -159,7 +159,7 @@ namespace DataManagement.Exporters
             });
         }
 
-        private static void AddNormalCellToTable(PdfPTable table, string text)
+        private void AddNormalCellToTable(PdfPTable table, string text)
         {
             table.AddCell(new PdfPCell(new Phrase(text, new Font(BaseFont, 10)))
             {
@@ -171,7 +171,7 @@ namespace DataManagement.Exporters
             });
         }
 
-        private static void AddHeaderCellToTable(PdfPTable table, string text)
+        private void AddHeaderCellToTable(PdfPTable table, string text)
         {
             table.AddCell(new PdfPCell(new Phrase(text, new Font(BaseFont, 12, Font.BOLD)))
             {

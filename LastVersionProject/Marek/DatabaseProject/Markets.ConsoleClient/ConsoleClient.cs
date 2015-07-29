@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Data.OracleClient;
 using System.Xml.Serialization;
+using DataManagement.Exporters;
 using DataManagement.Importers;
 using Markets.Model;
 
@@ -14,12 +15,16 @@ namespace Markets.ConsoleClient
         static void Main()
         {
             var db = new ChainOfSupermarketsContext();
-            var MeasureCount = db.Measures.Count();
+            //var MeasureCount = db.Measures.Count();
 
             //ExportDbToSqlServer();
 
-            var import = new XlsImporter();
+            var import = new XlsImporter(db);
             import.ImportSales();
+
+            //var export = new PdfExporter();
+            //export.ExportSales("01-Jan-2015", "25-Feb-2015");
+
 
         }
 

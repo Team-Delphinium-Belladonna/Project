@@ -18,3 +18,13 @@ C:\Users\Alexander\Desktop\teamWork\Project\Marek\DatabaseProject\Markets.Data\b
 C:\Users\Alexander\Desktop\teamWork\Project\Marek\DatabaseProject\Markets.Data\obj\Debug\Markets.Data.csprojResolveAssemblyReference.cache
 C:\Users\Alexander\Desktop\teamWork\Project\Marek\DatabaseProject\Markets.Data\obj\Debug\Markets.Data.dll
 C:\Users\Alexander\Desktop\teamWork\Project\Marek\DatabaseProject\Markets.Data\obj\Debug\Markets.Data.pdb
+C:\Users\Marek\Desktop\LastVersionProject\Marek\DatabaseProject\Markets.Data\bin\Debug\Markets.Data.dll.config
+C:\Users\Marek\Desktop\LastVersionProject\Marek\DatabaseProject\Markets.Data\bin\Debug\Markets.Data.dll
+C:\Users\Marek\Desktop\LastVersionProject\Marek\DatabaseProject\Markets.Data\bin\Debug\Markets.Data.pdb
+C:\Users\Marek\Desktop\LastVersionProject\Marek\DatabaseProject\Markets.Data\bin\Debug\EntityFramework.dll
+C:\Users\Marek\Desktop\LastVersionProject\Marek\DatabaseProject\Markets.Data\bin\Debug\Markets.Model.dll
+C:\Users\Marek\Desktop\LastVersionProject\Marek\DatabaseProject\Markets.Data\bin\Debug\Markets.Model.pdb
+C:\Users\Marek\Desktop\LastVersionProject\Marek\DatabaseProject\Markets.Data\bin\Debug\EntityFramework.xml
+C:\Users\Marek\Desktop\LastVersionProject\Marek\DatabaseProject\Markets.Data\obj\Debug\Markets.Data.csprojResolveAssemblyReference.cache
+C:\Users\Marek\Desktop\LastVersionProject\Marek\DatabaseProject\Markets.Data\obj\Debug\Markets.Data.dll
+C:\Users\Marek\Desktop\LastVersionProject\Marek\DatabaseProject\Markets.Data\obj\Debug\Markets.Data.pdb

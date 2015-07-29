@@ -15,3 +15,6 @@ C:\Users\Alexander\Desktop\teamWork\Project\Marek\DatabaseProject\MySQLDatabaseA
 C:\Users\Alexander\Desktop\teamWork\Project\Marek\DatabaseProject\MySQLDatabaseApp\obj\Debug\MySQLDatabaseApp.csprojResolveAssemblyReference.cache
 C:\Users\Alexander\Desktop\teamWork\Project\Marek\DatabaseProject\MySQLDatabaseApp\obj\Debug\MySQLDatabaseApp.exe
 C:\Users\Alexander\Desktop\teamWork\Project\Marek\DatabaseProject\MySQLDatabaseApp\obj\Debug\MySQLDatabaseApp.pdb
+C:\Users\Marek\Desktop\LastVersionProject\Marek\DatabaseProject\MySQLDatabaseApp\bin\Debug\MySQLDatabaseApp.exe.config
+C:\Users\Marek\Desktop\LastVersionProject\Marek\DatabaseProject\MySQLDatabaseApp\obj\Debug\MySQLDatabaseApp.exe
+C:\Users\Marek\Desktop\LastVersionProject\Marek\DatabaseProject\MySQLDatabaseApp\obj\Debug\MySQLDatabaseApp.pdb
