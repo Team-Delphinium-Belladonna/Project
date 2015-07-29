@@ -1,0 +1,22 @@
+D:\VS PROJECTS\TEAM_PROJECT\DatabaseProject\DataManagement\bin\Debug\DataManagement.exe.config
+C:\Users\Alexander\Desktop\teamWork\Project\Marek\DatabaseProject\DataManagement\bin\Debug\DataManagement.exe.config
+C:\Users\Alexander\Desktop\teamWork\Project\Marek\DatabaseProject\DataManagement\obj\Debug\DataManagement.csprojResolveAssemblyReference.cache
+C:\Users\Alexander\Desktop\teamWork\Project\Marek\DatabaseProject\DataManagement\bin\Debug\DataManagement.exe
+C:\Users\Alexander\Desktop\teamWork\Project\Marek\DatabaseProject\DataManagement\bin\Debug\DataManagement.pdb
+C:\Users\Alexander\Desktop\teamWork\Project\Marek\DatabaseProject\DataManagement\bin\Debug\EntityFramework.dll
+C:\Users\Alexander\Desktop\teamWork\Project\Marek\DatabaseProject\DataManagement\bin\Debug\EPPlus.dll
+C:\Users\Alexander\Desktop\teamWork\Project\Marek\DatabaseProject\DataManagement\bin\Debug\Excel.dll
+C:\Users\Alexander\Desktop\teamWork\Project\Marek\DatabaseProject\DataManagement\bin\Debug\ICSharpCode.SharpZipLib.dll
+C:\Users\Alexander\Desktop\teamWork\Project\Marek\DatabaseProject\DataManagement\bin\Debug\Ionic.Zip.dll
+C:\Users\Alexander\Desktop\teamWork\Project\Marek\DatabaseProject\DataManagement\bin\Debug\itextsharp.dll
+C:\Users\Alexander\Desktop\teamWork\Project\Marek\DatabaseProject\DataManagement\bin\Debug\Markets.Data.dll
+C:\Users\Alexander\Desktop\teamWork\Project\Marek\DatabaseProject\DataManagement\bin\Debug\Markets.Model.dll
+C:\Users\Alexander\Desktop\teamWork\Project\Marek\DatabaseProject\DataManagement\bin\Debug\Markets.Data.pdb
+C:\Users\Alexander\Desktop\teamWork\Project\Marek\DatabaseProject\DataManagement\bin\Debug\Markets.Model.pdb
+C:\Users\Alexander\Desktop\teamWork\Project\Marek\DatabaseProject\DataManagement\bin\Debug\EntityFramework.xml
+C:\Users\Alexander\Desktop\teamWork\Project\Marek\DatabaseProject\DataManagement\bin\Debug\EPPlus.xml
+C:\Users\Alexander\Desktop\teamWork\Project\Marek\DatabaseProject\DataManagement\bin\Debug\Excel.pdb
+C:\Users\Alexander\Desktop\teamWork\Project\Marek\DatabaseProject\DataManagement\bin\Debug\Ionic.Zip.xml
+C:\Users\Alexander\Desktop\teamWork\Project\Marek\DatabaseProject\DataManagement\bin\Debug\itextsharp.xml
+C:\Users\Alexander\Desktop\teamWork\Project\Marek\DatabaseProject\DataManagement\obj\Debug\DataManagement.exe
+C:\Users\Alexander\Desktop\teamWork\Project\Marek\DatabaseProject\DataManagement\obj\Debug\DataManagement.pdb

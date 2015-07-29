@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="ChainOfSupermarketsModelStoreContainer" CdmEntityContainer="ChainOfSupermarketsEntities">
+    <EntitySetMapping Name="MEASURES">
+      <EntityTypeMapping TypeName="ChainOfSupermarketsModel.MEASURE">
+        <MappingFragment StoreEntitySet="MEASURES">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="MEASURE_NAME" ColumnName="MEASURE_NAME" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PRODUCTS">
+      <EntityTypeMapping TypeName="ChainOfSupermarketsModel.PRODUCT">
+        <MappingFragment StoreEntitySet="PRODUCTS">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="VENDOR_ID" ColumnName="VENDOR_ID" />
+          <ScalarProperty Name="PRODUCT_NAME" ColumnName="PRODUCT_NAME" />
+          <ScalarProperty Name="MEASURE_ID" ColumnName="MEASURE_ID" />
+          <ScalarProperty Name="PRICE" ColumnName="PRICE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="VENDORS">
+      <EntityTypeMapping TypeName="ChainOfSupermarketsModel.VENDOR">
+        <MappingFragment StoreEntitySet="VENDORS">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="VENDOR_NAME" ColumnName="VENDOR_NAME" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

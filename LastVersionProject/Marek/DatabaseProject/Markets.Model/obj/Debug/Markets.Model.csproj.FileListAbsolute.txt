@@ -1,0 +1,10 @@
+E:\SoftUni-train\Projects\DatabaseApplication\DatabaseProject\Markets.Model\bin\Debug\Markets.Model.dll
+E:\SoftUni-train\Projects\DatabaseApplication\DatabaseProject\Markets.Model\bin\Debug\Markets.Model.pdb
+E:\SoftUni-train\Projects\DatabaseApplication\DatabaseProject\Markets.Model\obj\Debug\Markets.Model.csprojResolveAssemblyReference.cache
+E:\SoftUni-train\Projects\DatabaseApplication\DatabaseProject\Markets.Model\obj\Debug\Markets.Model.dll
+E:\SoftUni-train\Projects\DatabaseApplication\DatabaseProject\Markets.Model\obj\Debug\Markets.Model.pdb
+C:\Users\Alexander\Desktop\teamWork\Project\Marek\DatabaseProject\Markets.Model\bin\Debug\Markets.Model.dll
+C:\Users\Alexander\Desktop\teamWork\Project\Marek\DatabaseProject\Markets.Model\bin\Debug\Markets.Model.pdb
+C:\Users\Alexander\Desktop\teamWork\Project\Marek\DatabaseProject\Markets.Model\obj\Debug\Markets.Model.csprojResolveAssemblyReference.cache
+C:\Users\Alexander\Desktop\teamWork\Project\Marek\DatabaseProject\Markets.Model\obj\Debug\Markets.Model.dll
+C:\Users\Alexander\Desktop\teamWork\Project\Marek\DatabaseProject\Markets.Model\obj\Debug\Markets.Model.pdb

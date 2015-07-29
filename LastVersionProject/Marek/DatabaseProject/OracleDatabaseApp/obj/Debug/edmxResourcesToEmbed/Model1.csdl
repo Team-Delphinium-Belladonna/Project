@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="ChainOfSupermarketsModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="MEASURE">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Decimal" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="MEASURE_NAME" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="PRODUCTS" Relationship="Self.SYS_C007110" FromRole="MEASURES" ToRole="PRODUCTS" />
+  </EntityType>
+  <EntityType Name="PRODUCT">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Decimal" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="VENDOR_ID" Type="Decimal" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="PRODUCT_NAME" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="MEASURE_ID" Type="Decimal" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="PRICE" Type="Decimal" Precision="38" Scale="0" Nullable="false" />
+    <NavigationProperty Name="MEASURE" Relationship="Self.SYS_C007110" FromRole="PRODUCTS" ToRole="MEASURES" />
+    <NavigationProperty Name="VENDOR" Relationship="Self.SYS_C007109" FromRole="PRODUCTS" ToRole="VENDORS" />
+  </EntityType>
+  <EntityType Name="VENDOR">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Decimal" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="VENDOR_NAME" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="PRODUCTS" Relationship="Self.SYS_C007109" FromRole="VENDORS" ToRole="PRODUCTS" />
+  </EntityType>
+  <Association Name="SYS_C007110">
+    <End Role="MEASURES" Type="Self.MEASURE" Multiplicity="1" />
+    <End Role="PRODUCTS" Type="Self.PRODUCT" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="MEASURES">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="PRODUCTS">
+        <PropertyRef Name="MEASURE_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="SYS_C007109">
+    <End Role="VENDORS" Type="Self.VENDOR" Multiplicity="1" />
+    <End Role="PRODUCTS" Type="Self.PRODUCT" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="VENDORS">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="PRODUCTS">
+        <PropertyRef Name="VENDOR_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="ChainOfSupermarketsEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="MEASURES" EntityType="Self.MEASURE" />
+    <EntitySet Name="PRODUCTS" EntityType="Self.PRODUCT" />
+    <EntitySet Name="VENDORS" EntityType="Self.VENDOR" />
+    <AssociationSet Name="SYS_C007110" Association="Self.SYS_C007110">
+      <End Role="MEASURES" EntitySet="MEASURES" />
+      <End Role="PRODUCTS" EntitySet="PRODUCTS" />
+    </AssociationSet>
+    <AssociationSet Name="SYS_C007109" Association="Self.SYS_C007109">
+      <End Role="VENDORS" EntitySet="VENDORS" />
+      <End Role="PRODUCTS" EntitySet="PRODUCTS" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

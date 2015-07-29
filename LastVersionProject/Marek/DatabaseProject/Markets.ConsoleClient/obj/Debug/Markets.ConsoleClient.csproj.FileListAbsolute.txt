@@ -1,0 +1,36 @@
+E:\SoftUni-train\Projects\DatabaseApplication\DatabaseProject\Markets.ConsoleClient\bin\Debug\Markets.ConsoleClient.exe.config
+E:\SoftUni-train\Projects\DatabaseApplication\DatabaseProject\Markets.ConsoleClient\bin\Debug\Markets.ConsoleClient.exe
+E:\SoftUni-train\Projects\DatabaseApplication\DatabaseProject\Markets.ConsoleClient\bin\Debug\Markets.ConsoleClient.pdb
+E:\SoftUni-train\Projects\DatabaseApplication\DatabaseProject\Markets.ConsoleClient\bin\Debug\EntityFramework.dll
+E:\SoftUni-train\Projects\DatabaseApplication\DatabaseProject\Markets.ConsoleClient\bin\Debug\Markets.Data.dll
+E:\SoftUni-train\Projects\DatabaseApplication\DatabaseProject\Markets.ConsoleClient\bin\Debug\Markets.Model.dll
+E:\SoftUni-train\Projects\DatabaseApplication\DatabaseProject\Markets.ConsoleClient\bin\Debug\Markets.Data.pdb
+E:\SoftUni-train\Projects\DatabaseApplication\DatabaseProject\Markets.ConsoleClient\bin\Debug\Markets.Model.pdb
+E:\SoftUni-train\Projects\DatabaseApplication\DatabaseProject\Markets.ConsoleClient\bin\Debug\EntityFramework.xml
+E:\SoftUni-train\Projects\DatabaseApplication\DatabaseProject\Markets.ConsoleClient\obj\Debug\Markets.ConsoleClient.csprojResolveAssemblyReference.cache
+E:\SoftUni-train\Projects\DatabaseApplication\DatabaseProject\Markets.ConsoleClient\obj\Debug\Markets.ConsoleClient.exe
+E:\SoftUni-train\Projects\DatabaseApplication\DatabaseProject\Markets.ConsoleClient\obj\Debug\Markets.ConsoleClient.pdb
+D:\VS PROJECTS\TEAM_PROJECT\DatabaseProject\Markets.ConsoleClient\bin\Debug\Markets.ConsoleClient.exe.config
+D:\VS PROJECTS\TEAM_PROJECT\DatabaseProject\Markets.ConsoleClient\obj\Debug\Markets.ConsoleClient.exe
+D:\VS PROJECTS\TEAM_PROJECT\DatabaseProject\Markets.ConsoleClient\obj\Debug\Markets.ConsoleClient.pdb
+C:\Users\Alexander\Desktop\teamWork\Project\Marek\DatabaseProject\Markets.ConsoleClient\bin\Debug\Markets.ConsoleClient.exe.config
+C:\Users\Alexander\Desktop\teamWork\Project\Marek\DatabaseProject\Markets.ConsoleClient\obj\Debug\Markets.ConsoleClient.exe
+C:\Users\Alexander\Desktop\teamWork\Project\Marek\DatabaseProject\Markets.ConsoleClient\obj\Debug\Markets.ConsoleClient.pdb
+C:\Users\Alexander\Desktop\teamWork\Project\Marek\DatabaseProject\Markets.ConsoleClient\bin\Debug\Markets.ConsoleClient.exe
+C:\Users\Alexander\Desktop\teamWork\Project\Marek\DatabaseProject\Markets.ConsoleClient\bin\Debug\Markets.ConsoleClient.pdb
+C:\Users\Alexander\Desktop\teamWork\Project\Marek\DatabaseProject\Markets.ConsoleClient\bin\Debug\EntityFramework.dll
+C:\Users\Alexander\Desktop\teamWork\Project\Marek\DatabaseProject\Markets.ConsoleClient\bin\Debug\Markets.Data.dll
+C:\Users\Alexander\Desktop\teamWork\Project\Marek\DatabaseProject\Markets.ConsoleClient\bin\Debug\Markets.Model.dll
+C:\Users\Alexander\Desktop\teamWork\Project\Marek\DatabaseProject\Markets.ConsoleClient\bin\Debug\Markets.Data.pdb
+C:\Users\Alexander\Desktop\teamWork\Project\Marek\DatabaseProject\Markets.ConsoleClient\bin\Debug\Markets.Model.pdb
+C:\Users\Alexander\Desktop\teamWork\Project\Marek\DatabaseProject\Markets.ConsoleClient\bin\Debug\EntityFramework.xml
+C:\Users\Alexander\Desktop\teamWork\Project\Marek\DatabaseProject\Markets.ConsoleClient\obj\Debug\Markets.ConsoleClient.csprojResolveAssemblyReference.cache
+C:\Users\Alexander\Desktop\teamWork\Project\Marek\DatabaseProject\Markets.ConsoleClient\bin\Debug\DataManagement.exe
+C:\Users\Alexander\Desktop\teamWork\Project\Marek\DatabaseProject\Markets.ConsoleClient\bin\Debug\itextsharp.dll
+C:\Users\Alexander\Desktop\teamWork\Project\Marek\DatabaseProject\Markets.ConsoleClient\bin\Debug\Excel.dll
+C:\Users\Alexander\Desktop\teamWork\Project\Marek\DatabaseProject\Markets.ConsoleClient\bin\Debug\Ionic.Zip.dll
+C:\Users\Alexander\Desktop\teamWork\Project\Marek\DatabaseProject\Markets.ConsoleClient\bin\Debug\ICSharpCode.SharpZipLib.dll
+C:\Users\Alexander\Desktop\teamWork\Project\Marek\DatabaseProject\Markets.ConsoleClient\bin\Debug\DataManagement.pdb
+C:\Users\Alexander\Desktop\teamWork\Project\Marek\DatabaseProject\Markets.ConsoleClient\bin\Debug\itextsharp.xml
+C:\Users\Alexander\Desktop\teamWork\Project\Marek\DatabaseProject\Markets.ConsoleClient\bin\Debug\Excel.pdb
+C:\Users\Alexander\Desktop\teamWork\Project\Marek\DatabaseProject\Markets.ConsoleClient\bin\Debug\Ionic.Zip.xml

@@ -1,0 +1,68 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Oracle", "Oracle", "{76CA8574-03D0-4E7C-888E-1B40C9CF7103}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OracleDatabaseApp", "OracleDatabaseApp\OracleDatabaseApp.csproj", "{7C4ACBAC-0959-4774-86D5-31AD6A31CF93}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MSSQLDatabase", "MSSQLDatabase", "{16F196B7-AB08-459C-8CDE-0FAEF8051FAF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Markets.Model", "Markets.Model\Markets.Model.csproj", "{1A03D0C5-449C-48E7-882B-CB69546609FE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Markets.Data", "Markets.Data\Markets.Data.csproj", "{E163F91E-4F90-407A-A182-AC26958C6B33}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Markets.ConsoleClient", "Markets.ConsoleClient\Markets.ConsoleClient.csproj", "{5EE49576-84CD-4453-82F6-042CEAC49235}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MySQL", "MySQL", "{8DFCBA46-6563-4096-A4B1-7CE70C94DACC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MySQLDatabaseApp", "MySQLDatabaseApp\MySQLDatabaseApp.csproj", "{9E27FF62-9414-45D5-B20E-77FD9AD084B1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataManagement", "DataManagement", "{D1F1A7C3-C8DF-43D9-BF29-9DAFA9E54729}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataManagement", "DataManagement\DataManagement.csproj", "{F8F0A6AD-92F8-4836-B3A5-38D9F8E05780}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7C4ACBAC-0959-4774-86D5-31AD6A31CF93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C4ACBAC-0959-4774-86D5-31AD6A31CF93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C4ACBAC-0959-4774-86D5-31AD6A31CF93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C4ACBAC-0959-4774-86D5-31AD6A31CF93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A03D0C5-449C-48E7-882B-CB69546609FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A03D0C5-449C-48E7-882B-CB69546609FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A03D0C5-449C-48E7-882B-CB69546609FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A03D0C5-449C-48E7-882B-CB69546609FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E163F91E-4F90-407A-A182-AC26958C6B33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E163F91E-4F90-407A-A182-AC26958C6B33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E163F91E-4F90-407A-A182-AC26958C6B33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E163F91E-4F90-407A-A182-AC26958C6B33}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5EE49576-84CD-4453-82F6-042CEAC49235}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5EE49576-84CD-4453-82F6-042CEAC49235}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5EE49576-84CD-4453-82F6-042CEAC49235}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5EE49576-84CD-4453-82F6-042CEAC49235}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E27FF62-9414-45D5-B20E-77FD9AD084B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E27FF62-9414-45D5-B20E-77FD9AD084B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E27FF62-9414-45D5-B20E-77FD9AD084B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E27FF62-9414-45D5-B20E-77FD9AD084B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8F0A6AD-92F8-4836-B3A5-38D9F8E05780}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8F0A6AD-92F8-4836-B3A5-38D9F8E05780}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8F0A6AD-92F8-4836-B3A5-38D9F8E05780}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8F0A6AD-92F8-4836-B3A5-38D9F8E05780}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7C4ACBAC-0959-4774-86D5-31AD6A31CF93} = {76CA8574-03D0-4E7C-888E-1B40C9CF7103}
+		{1A03D0C5-449C-48E7-882B-CB69546609FE} = {16F196B7-AB08-459C-8CDE-0FAEF8051FAF}
+		{E163F91E-4F90-407A-A182-AC26958C6B33} = {16F196B7-AB08-459C-8CDE-0FAEF8051FAF}
+		{5EE49576-84CD-4453-82F6-042CEAC49235} = {16F196B7-AB08-459C-8CDE-0FAEF8051FAF}
+		{9E27FF62-9414-45D5-B20E-77FD9AD084B1} = {8DFCBA46-6563-4096-A4B1-7CE70C94DACC}
+		{F8F0A6AD-92F8-4836-B3A5-38D9F8E05780} = {D1F1A7C3-C8DF-43D9-BF29-9DAFA9E54729}
+	EndGlobalSection
+EndGlobal

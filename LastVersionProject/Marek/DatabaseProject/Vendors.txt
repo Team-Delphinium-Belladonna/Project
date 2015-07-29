@@ -1,0 +1,7 @@
+ID Vendor Name
+1 Nestle Sofia Corp.
+2 Zagorka Corp.
+3 Targovishte Bottling Company Ltd.
+4 Coca-Cola
+5 Simid A&D
+6 Bella AD

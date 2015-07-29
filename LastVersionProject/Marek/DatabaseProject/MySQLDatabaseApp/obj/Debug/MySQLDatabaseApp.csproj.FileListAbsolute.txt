@@ -1,0 +1,17 @@
+D:\VS PROJECTS\TEAM_PROJECT\DatabaseProject\MySQLDatabaseApp\bin\Debug\MySQLDatabaseApp.exe.config
+C:\Users\Alexander\Desktop\teamWork\Project\Marek\DatabaseProject\MySQLDatabaseApp\bin\Debug\MySQLDatabaseApp.exe.config
+C:\Users\Alexander\Desktop\teamWork\Project\Marek\DatabaseProject\MySQLDatabaseApp\bin\Debug\MySQLDatabaseApp.exe
+C:\Users\Alexander\Desktop\teamWork\Project\Marek\DatabaseProject\MySQLDatabaseApp\bin\Debug\MySQLDatabaseApp.pdb
+C:\Users\Alexander\Desktop\teamWork\Project\Marek\DatabaseProject\MySQLDatabaseApp\bin\Debug\EntityFramework.dll
+C:\Users\Alexander\Desktop\teamWork\Project\Marek\DatabaseProject\MySQLDatabaseApp\bin\Debug\Markets.Data.dll
+C:\Users\Alexander\Desktop\teamWork\Project\Marek\DatabaseProject\MySQLDatabaseApp\bin\Debug\Markets.Model.dll
+C:\Users\Alexander\Desktop\teamWork\Project\Marek\DatabaseProject\MySQLDatabaseApp\bin\Debug\MySql.Data.dll
+C:\Users\Alexander\Desktop\teamWork\Project\Marek\DatabaseProject\MySQLDatabaseApp\bin\Debug\MySql.Data.Entity.dll
+C:\Users\Alexander\Desktop\teamWork\Project\Marek\DatabaseProject\MySQLDatabaseApp\bin\Debug\MySql.Data.Entity.EF5.dll
+C:\Users\Alexander\Desktop\teamWork\Project\Marek\DatabaseProject\MySQLDatabaseApp\bin\Debug\MySql.Web.dll
+C:\Users\Alexander\Desktop\teamWork\Project\Marek\DatabaseProject\MySQLDatabaseApp\bin\Debug\Markets.Data.pdb
+C:\Users\Alexander\Desktop\teamWork\Project\Marek\DatabaseProject\MySQLDatabaseApp\bin\Debug\Markets.Model.pdb
+C:\Users\Alexander\Desktop\teamWork\Project\Marek\DatabaseProject\MySQLDatabaseApp\bin\Debug\EntityFramework.xml
+C:\Users\Alexander\Desktop\teamWork\Project\Marek\DatabaseProject\MySQLDatabaseApp\obj\Debug\MySQLDatabaseApp.csprojResolveAssemblyReference.cache
+C:\Users\Alexander\Desktop\teamWork\Project\Marek\DatabaseProject\MySQLDatabaseApp\obj\Debug\MySQLDatabaseApp.exe
+C:\Users\Alexander\Desktop\teamWork\Project\Marek\DatabaseProject\MySQLDatabaseApp\obj\Debug\MySQLDatabaseApp.pdb

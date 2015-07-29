@@ -1,0 +1,21 @@
+ID|VendorID|Product Name|MeasureID|Price
+1|2|Beer "Zagorka"|1|0.86
+2|3|Vodka "Targovishte"|1|7.56
+3|2|Beer "Beck's"|1|1.03
+4|1|Chocolate "Milka"|3|2.80
+5|4|Soda "Coca-Cola"|1|1.20
+6|5|Bread "Rustic Bread"|3|1.00
+7|1|Cereal "Nesquick"|3|4.60
+8|5|Bread "White Bread"|3|0.80
+9|4|Soda "Fanta"|1|1.10
+10|5|Bread "Brown Bread"|3|0.90
+11|1|Ice Cream "Magnum"|2|2.99
+12|4|Soda "Sprite"|1|1.15
+13|2|Cider "Strongbow"|1|1.60
+14|1|Chocolate "LZ"|3|1.40
+15|6|Ham "Leki"|3|3.49
+16|4|Ice Tea "Nestea"|1|1.59
+17|2|Beer "Amstel"|1|0.90
+18|6|Mince "Naroden"|3|1.20
+19|1|Biscuits "Zhiten Dar"|2|2.25
+20|4|Juice "Cappy"|1|1.19
