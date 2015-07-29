@@ -67,7 +67,9 @@
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
       <DependentUpon>DataManagement.settings</DependentUpon>
     </Compile>
+    <Compile Include="Exporters\ExportXML.cs" />
     <Compile Include="Exporters\PdfExporter.cs" />
+    <Compile Include="Importers\ImportXML.cs" />
     <Compile Include="Importers\XlsImporter.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

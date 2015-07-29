@@ -19,11 +19,18 @@ namespace Markets.ConsoleClient
 
             //ExportDbToSqlServer();
 
-            var import = new XlsImporter(db);
-            import.ImportSales();
+            //var import = new XlsImporter(db);
+            //import.ImportSales();
 
             //var export = new PdfExporter();
             //export.ExportSales("01-Jan-2015", "25-Feb-2015");
+            //var importXML = new LoadXML();
+            //importXML.ImportXML();
+
+            var exportXML = new ExportReportAsXML();
+            exportXML.ExportSales("20-Jul-2014","22-Jul-2014");
+
+
 
 
         }

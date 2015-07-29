@@ -32,5 +32,7 @@ namespace Markets.Model
                 this.month = new DateTime(value.Year, value.Month, 1);
             }
         }
+
+        public decimal Amount { get; set; }
     }
 }

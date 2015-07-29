@@ -67,5 +67,20 @@ namespace DataManagement {
                 this["VerdanaFontLocation"] = value;
             }
         }
+
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("..\\..\\..\\AdditionalFiles\\Sample-Vendor-Expenses.xml")]
+        public string XMLExpenseLocation
+        {
+            get
+            {
+                return ((string)(this["XMLExpenseLocation"]));
+            }
+            set
+            {
+                this["XMLExpenseLocation"] = value;
+            }
+        }
     }
 }
