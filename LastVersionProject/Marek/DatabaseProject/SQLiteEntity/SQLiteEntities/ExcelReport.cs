@@ -33,8 +33,6 @@ namespace SQLiteEntities
             productTaxes.Columns.Add("TotalTaxes");
             productTaxes.Columns.Add("Financial result");
 
-            String mysqlDataSource = "server=localhost;Database=chain_of_supermarkets;uid=softuni;pwd=1234567;";
-            MySqlConnection mySqlConnection = new MySqlConnection(mysqlDataSource);
             String selectData =
                 "SELECT " +
                     "v.name AS Vendor," +
@@ -58,6 +56,8 @@ namespace SQLiteEntities
                         "ON p.vendor_id = v.id " +
                 "GROUP BY v.id, v.name, p.name";
 
+            String mysqlDataSource = "server=localhost;Database=chain_of_supermarkets;uid=softuni;pwd=1234567;";
+            MySqlConnection mySqlConnection = new MySqlConnection(mysqlDataSource);
             MySqlCommand mysqlSelectCommand = new MySqlCommand(selectData, mySqlConnection);
             MySqlDataReader mySqlDataReader = null;
 
@@ -70,12 +70,13 @@ namespace SQLiteEntities
 
                 while (sqLiteDataReader.Read() && mySqlDataReader.Read())
                 {
-                    var tax = Convert.ToDecimal(sqLiteDataReader["Tax"].ToString());
+                    var name = mySqlDataReader.GetString(0);
                     var income = mySqlDataReader.GetDecimal(2);
-                    var taxPercent = tax / 100;
-                    var currentTax = income * taxPercent;
-                    currentTax = System.Math.Round(currentTax, 2);
-                    var sale = new Sales(mySqlDataReader.GetString(0), income, mySqlDataReader.GetDecimal(3), currentTax);
+                    var expense = mySqlDataReader.GetDecimal(3);
+                    var getTax = Convert.ToDecimal(sqLiteDataReader["Tax"].ToString());
+                    var tax = income * (getTax / 100);
+                    tax = System.Math.Round(tax, 2);
+                    var sale = new Sales(name, income, expense, tax);
                     sales.Add(sale);
                 }
 
@@ -126,6 +127,12 @@ namespace SQLiteEntities
 
         private static void ExportDataToExcel(SQL.DataSet dataSet)
         {
+            const int VendorsIndex = 1;
+            const int IncomesIndex = 2;
+            const int ExpensesIndex = 3;
+            const int TotalTaxesIndex = 4;
+            const int FinancialResultIndex = 5;
+
             var excelApplication = new Excel.Application();
             String excelReportPath = @"C:\Users\Alexander\Desktop\teamWork\Project\Marek\DatabaseProject\ExcelReport\Report.xlsx";
             String excelReportPathBackup = String.Format(@"C:\Users\Alexander\Desktop\teamWork\Project\Marek\DatabaseProject\ExcelReport\Report-{0}-{1}-{2}-{3}-{4}-{5}.xlsx",
@@ -142,12 +149,6 @@ namespace SQLiteEntities
             }
 
             var excelWorkBook = excelApplication.Workbooks.Add(Missing.Value);
-
-            const int VendorsIndex = 1;
-            const int IncomesIndex = 2;
-            const int ExpensesIndex = 3;
-            const int TotalTaxesIndex = 4;
-            const int FinancialResultIndex = 5;
 
             foreach (SQL.DataTable table in dataSet.Tables)
             {

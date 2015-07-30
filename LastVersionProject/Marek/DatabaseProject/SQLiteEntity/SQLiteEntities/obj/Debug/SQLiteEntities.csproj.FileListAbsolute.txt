@@ -58,3 +58,6 @@ C:\Users\Alexander\Desktop\teamWork\Project\Marek\DatabaseProject\SQLiteEntity\S
 C:\Users\Alexander\Desktop\teamWork\Project\Marek\DatabaseProject\SQLiteEntity\SQLiteEntities\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\Alexander\Desktop\teamWork\Project\Marek\DatabaseProject\SQLiteEntity\SQLiteEntities\bin\Debug\System.Data.SQLite.xml
 C:\Users\Alexander\Desktop\teamWork\Project\Marek\DatabaseProject\SQLiteEntity\SQLiteEntities\obj\Debug\SQLiteEntities.csprojResolveAssemblyReference.cache
+D:\SharedFolder\Education\SoftUni\03-AdvancedLevel-BackEnd\02-Database-Applications\Teamwork-Project\GitHub\Project\LastVersionProject\Marek\DatabaseProject\SQLiteEntity\SQLiteEntities\bin\Debug\SQLiteEntities.exe.config
+D:\SharedFolder\Education\SoftUni\03-AdvancedLevel-BackEnd\02-Database-Applications\Teamwork-Project\GitHub\Project\LastVersionProject\Marek\DatabaseProject\SQLiteEntity\SQLiteEntities\obj\Debug\SQLiteEntities.exe
+D:\SharedFolder\Education\SoftUni\03-AdvancedLevel-BackEnd\02-Database-Applications\Teamwork-Project\GitHub\Project\LastVersionProject\Marek\DatabaseProject\SQLiteEntity\SQLiteEntities\obj\Debug\SQLiteEntities.pdb
