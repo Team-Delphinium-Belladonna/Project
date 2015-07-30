@@ -14,10 +14,11 @@ namespace MongoDBandJSON
     class JsonReporter
     {
         private string outputPath;
+        private ChainOfSupermarketsContext marketContext;
 
-        public JsonReporter(string outputPath)
+        public JsonReporter(ChainOfSupermarketsContext context, string outputPath)
         {
-            this.outputPath = outputPath;
+            this.marketContext = context;
         }
 
         public void GenerateReport(DateTime startDate, DateTime endDate)
@@ -69,29 +70,26 @@ namespace MongoDBandJSON
             return result;
         }
 
-        private void CreateJson(ProductTotalSale periodReportsetData)
+        private void CreateJson(ProductTotalSale currentProduct)
         {
-            var actualPath = outputPath;// + "Json-Reports";
+            var context = this.marketContext;
+            var actualPath = this.outputPath;// + "Json-Reports";
             if (!Directory.Exists(actualPath))
             {
                 Directory.CreateDirectory(actualPath);
             }
 
-            //var writer = new StreamWriter(string.Format("{0}\\{1}.json", actualPath, periodReportsedData.ID));
-            //using (writer)
-            //{
-            //    JsonSerializer.SerializeToWriter<ProductTotalSale>(periodReportsedData, writer);
-            //}
+            var writer = new StreamWriter(string.Format("{0}\\{1}.json", actualPath, currentProduct.ProductId));
+            using (writer)
+            {
+                var json = new Newtonsoft.Json.JsonSerializer();
+                json.Serialize(writer, currentProduct);
+            }
         }
 
-        private void AddToMongoDb(IEnumerable<ProductTotalSale> periodReportsedData)
-        {
-            //MySqlDatabase.MySqlCreator.CreateDatabase();
-            //using (var ctx = new MySqlEntities())
-            //{
-            //    ctx.Add(periodReportsedData);
-            //    ctx.SaveChanges();
-            //}
-        }
+        // private void AddToMongoDb(IEnumerable<ProductTotalSale> periodReportsedData)
+        // {
+            
+        // }
     }
 }

@@ -14,7 +14,7 @@ namespace MongoDBandJSON
         {
             var marketsContext = new ChainOfSupermarketsContext();
 
-            JsonReporter jsonReport = new JsonReporter("..\\..\\Json-Reports");
+            JsonReporter jsonReport = new JsonReporter(marketsContext, "..\\..\\Json-Reports");
             //JsonReporter jsonReport = new JsonReporter("..\\..\\..\\Helper.Files\\Json-Reports");
             DateTime startDate = DateTime.Now.AddDays(-5);
             DateTime endDate = DateTime.Now.AddDays(-4);
