@@ -1,0 +1,45 @@
+C:\Users\Admin\Desktop\TeamWork Beladona\TanyaTeamWork\Markets.ConsoleClient\obj\Debug\Markets.ConsoleClient.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Desktop\TeamWork Beladona\TanyaTeamWork\Markets.ConsoleClient\bin\Debug\Markets.ConsoleClient.exe.config
+C:\Users\Admin\Desktop\TeamWork Beladona\TanyaTeamWork\Markets.ConsoleClient\bin\Debug\Markets.ConsoleClient.exe
+C:\Users\Admin\Desktop\TeamWork Beladona\TanyaTeamWork\Markets.ConsoleClient\bin\Debug\Markets.ConsoleClient.pdb
+C:\Users\Admin\Desktop\TeamWork Beladona\TanyaTeamWork\Markets.ConsoleClient\bin\Debug\EntityFramework.dll
+C:\Users\Admin\Desktop\TeamWork Beladona\TanyaTeamWork\Markets.ConsoleClient\bin\Debug\Markets.Data.dll
+C:\Users\Admin\Desktop\TeamWork Beladona\TanyaTeamWork\Markets.ConsoleClient\bin\Debug\Markets.Model.dll
+C:\Users\Admin\Desktop\TeamWork Beladona\TanyaTeamWork\Markets.ConsoleClient\bin\Debug\MongoDB.Bson.dll
+C:\Users\Admin\Desktop\TeamWork Beladona\TanyaTeamWork\Markets.ConsoleClient\bin\Debug\MongoDB.Driver.Core.dll
+C:\Users\Admin\Desktop\TeamWork Beladona\TanyaTeamWork\Markets.ConsoleClient\bin\Debug\MongoDB.Driver.dll
+C:\Users\Admin\Desktop\TeamWork Beladona\TanyaTeamWork\Markets.ConsoleClient\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Admin\Desktop\TeamWork Beladona\TanyaTeamWork\Markets.ConsoleClient\bin\Debug\Markets.Data.pdb
+C:\Users\Admin\Desktop\TeamWork Beladona\TanyaTeamWork\Markets.ConsoleClient\bin\Debug\Markets.Model.pdb
+C:\Users\Admin\Desktop\TeamWork Beladona\TanyaTeamWork\Markets.ConsoleClient\bin\Debug\EntityFramework.xml
+C:\Users\Admin\Desktop\TeamWork Beladona\TanyaTeamWork\Markets.ConsoleClient\bin\Debug\MongoDB.Bson.xml
+C:\Users\Admin\Desktop\TeamWork Beladona\TanyaTeamWork\Markets.ConsoleClient\bin\Debug\MongoDB.Driver.xml
+C:\Users\Admin\Desktop\TeamWork Beladona\TanyaTeamWork\Markets.ConsoleClient\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Admin\Desktop\TeamWork Beladona\TanyaTeamWork\Markets.ConsoleClient\obj\Debug\Markets.ConsoleClient.exe
+C:\Users\Admin\Desktop\TeamWork Beladona\TanyaTeamWork\Markets.ConsoleClient\obj\Debug\Markets.ConsoleClient.pdb
+C:\Users\Admin\Desktop\TeamWork Beladona\TanyaTeamWork\Markets.ConsoleClient\bin\Debug\Markets.DataManipulation.dll
+C:\Users\Admin\Desktop\TeamWork Beladona\TanyaTeamWork\Markets.ConsoleClient\bin\Debug\Markets.DataManipulation.pdb
+C:\Users\Admin\Desktop\Beladona - old\TanyaTeamWork - old\Markets.ConsoleClient\bin\Debug\Markets.ConsoleClient.exe.config
+C:\Users\Admin\Desktop\Beladona - old\TanyaTeamWork - old\Markets.ConsoleClient\obj\Debug\Markets.ConsoleClient.exe
+C:\Users\Admin\Desktop\Beladona - old\TanyaTeamWork - old\Markets.ConsoleClient\obj\Debug\Markets.ConsoleClient.pdb
+C:\Users\Admin\Desktop\Beladona - old\TanyaTeamWork - old\Markets.ConsoleClient\bin\Debug\Markets.ConsoleClient.exe
+C:\Users\Admin\Desktop\Beladona - old\TanyaTeamWork - old\Markets.ConsoleClient\bin\Debug\Markets.ConsoleClient.pdb
+C:\Users\Admin\Desktop\Beladona - old\TanyaTeamWork - old\Markets.ConsoleClient\bin\Debug\EntityFramework.dll
+C:\Users\Admin\Desktop\Beladona - old\TanyaTeamWork - old\Markets.ConsoleClient\bin\Debug\Markets.Data.dll
+C:\Users\Admin\Desktop\Beladona - old\TanyaTeamWork - old\Markets.ConsoleClient\bin\Debug\Markets.DataManipulation.dll
+C:\Users\Admin\Desktop\Beladona - old\TanyaTeamWork - old\Markets.ConsoleClient\bin\Debug\Markets.Model.dll
+C:\Users\Admin\Desktop\Beladona - old\TanyaTeamWork - old\Markets.ConsoleClient\bin\Debug\MongoDB.Bson.dll
+C:\Users\Admin\Desktop\Beladona - old\TanyaTeamWork - old\Markets.ConsoleClient\bin\Debug\MongoDB.Driver.Core.dll
+C:\Users\Admin\Desktop\Beladona - old\TanyaTeamWork - old\Markets.ConsoleClient\bin\Debug\MongoDB.Driver.dll
+C:\Users\Admin\Desktop\Beladona - old\TanyaTeamWork - old\Markets.ConsoleClient\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Admin\Desktop\Beladona - old\TanyaTeamWork - old\Markets.ConsoleClient\bin\Debug\Markets.DataManipulation.pdb
+C:\Users\Admin\Desktop\Beladona - old\TanyaTeamWork - old\Markets.ConsoleClient\bin\Debug\Markets.Data.pdb
+C:\Users\Admin\Desktop\Beladona - old\TanyaTeamWork - old\Markets.ConsoleClient\bin\Debug\Markets.Model.pdb
+C:\Users\Admin\Desktop\Beladona - old\TanyaTeamWork - old\Markets.ConsoleClient\bin\Debug\EntityFramework.xml
+C:\Users\Admin\Desktop\Beladona - old\TanyaTeamWork - old\Markets.ConsoleClient\bin\Debug\MongoDB.Bson.xml
+C:\Users\Admin\Desktop\Beladona - old\TanyaTeamWork - old\Markets.ConsoleClient\bin\Debug\MongoDB.Driver.xml
+C:\Users\Admin\Desktop\Beladona - old\TanyaTeamWork - old\Markets.ConsoleClient\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Admin\Desktop\Beladona - old\TanyaTeamWork - old\Markets.ConsoleClient\obj\Debug\Markets.ConsoleClient.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Desktop\Beladona - old\CreateJSON\Markets.ConsoleClient\bin\Debug\Markets.ConsoleClient.exe.config
+C:\Users\Admin\Desktop\Beladona - old\CreateJSON\Markets.ConsoleClient\obj\Debug\Markets.ConsoleClient.exe
+C:\Users\Admin\Desktop\Beladona - old\CreateJSON\Markets.ConsoleClient\obj\Debug\Markets.ConsoleClient.pdb

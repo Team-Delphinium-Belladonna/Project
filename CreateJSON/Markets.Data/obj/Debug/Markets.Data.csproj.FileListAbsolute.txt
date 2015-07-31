@@ -1,0 +1,34 @@
+C:\Users\Admin\Desktop\TeamWork Beladona\TanyaTeamWork\Markets.Data\bin\Debug\Markets.Data.dll.config
+C:\Users\Admin\Desktop\TeamWork Beladona\TanyaTeamWork\Markets.Data\bin\Debug\Markets.Data.dll
+C:\Users\Admin\Desktop\TeamWork Beladona\TanyaTeamWork\Markets.Data\bin\Debug\Markets.Data.pdb
+C:\Users\Admin\Desktop\TeamWork Beladona\TanyaTeamWork\Markets.Data\bin\Debug\EntityFramework.dll
+C:\Users\Admin\Desktop\TeamWork Beladona\TanyaTeamWork\Markets.Data\bin\Debug\Markets.Model.dll
+C:\Users\Admin\Desktop\TeamWork Beladona\TanyaTeamWork\Markets.Data\bin\Debug\MongoDB.Bson.dll
+C:\Users\Admin\Desktop\TeamWork Beladona\TanyaTeamWork\Markets.Data\bin\Debug\MongoDB.Driver.Core.dll
+C:\Users\Admin\Desktop\TeamWork Beladona\TanyaTeamWork\Markets.Data\bin\Debug\MongoDB.Driver.dll
+C:\Users\Admin\Desktop\TeamWork Beladona\TanyaTeamWork\Markets.Data\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Admin\Desktop\TeamWork Beladona\TanyaTeamWork\Markets.Data\bin\Debug\Markets.Model.pdb
+C:\Users\Admin\Desktop\TeamWork Beladona\TanyaTeamWork\Markets.Data\bin\Debug\EntityFramework.xml
+C:\Users\Admin\Desktop\TeamWork Beladona\TanyaTeamWork\Markets.Data\bin\Debug\MongoDB.Bson.xml
+C:\Users\Admin\Desktop\TeamWork Beladona\TanyaTeamWork\Markets.Data\bin\Debug\MongoDB.Driver.xml
+C:\Users\Admin\Desktop\TeamWork Beladona\TanyaTeamWork\Markets.Data\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Admin\Desktop\TeamWork Beladona\TanyaTeamWork\Markets.Data\obj\Debug\Markets.Data.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Desktop\TeamWork Beladona\TanyaTeamWork\Markets.Data\obj\Debug\Markets.Data.dll
+C:\Users\Admin\Desktop\TeamWork Beladona\TanyaTeamWork\Markets.Data\obj\Debug\Markets.Data.pdb
+C:\Users\Admin\Desktop\Beladona - old\TanyaTeamWork - old\Markets.Data\bin\Debug\Markets.Data.dll.config
+C:\Users\Admin\Desktop\Beladona - old\TanyaTeamWork - old\Markets.Data\bin\Debug\Markets.Data.dll
+C:\Users\Admin\Desktop\Beladona - old\TanyaTeamWork - old\Markets.Data\bin\Debug\Markets.Data.pdb
+C:\Users\Admin\Desktop\Beladona - old\TanyaTeamWork - old\Markets.Data\bin\Debug\EntityFramework.dll
+C:\Users\Admin\Desktop\Beladona - old\TanyaTeamWork - old\Markets.Data\bin\Debug\Markets.Model.dll
+C:\Users\Admin\Desktop\Beladona - old\TanyaTeamWork - old\Markets.Data\bin\Debug\MongoDB.Bson.dll
+C:\Users\Admin\Desktop\Beladona - old\TanyaTeamWork - old\Markets.Data\bin\Debug\MongoDB.Driver.Core.dll
+C:\Users\Admin\Desktop\Beladona - old\TanyaTeamWork - old\Markets.Data\bin\Debug\MongoDB.Driver.dll
+C:\Users\Admin\Desktop\Beladona - old\TanyaTeamWork - old\Markets.Data\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Admin\Desktop\Beladona - old\TanyaTeamWork - old\Markets.Data\bin\Debug\Markets.Model.pdb
+C:\Users\Admin\Desktop\Beladona - old\TanyaTeamWork - old\Markets.Data\bin\Debug\EntityFramework.xml
+C:\Users\Admin\Desktop\Beladona - old\TanyaTeamWork - old\Markets.Data\bin\Debug\MongoDB.Bson.xml
+C:\Users\Admin\Desktop\Beladona - old\TanyaTeamWork - old\Markets.Data\bin\Debug\MongoDB.Driver.xml
+C:\Users\Admin\Desktop\Beladona - old\TanyaTeamWork - old\Markets.Data\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Admin\Desktop\Beladona - old\TanyaTeamWork - old\Markets.Data\obj\Debug\Markets.Data.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Desktop\Beladona - old\TanyaTeamWork - old\Markets.Data\obj\Debug\Markets.Data.dll
+C:\Users\Admin\Desktop\Beladona - old\TanyaTeamWork - old\Markets.Data\obj\Debug\Markets.Data.pdb
